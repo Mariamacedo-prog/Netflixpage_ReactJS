@@ -4,6 +4,10 @@
 .movieRow h2 {
   margin: 0px 0px 0px 30px;
 }
+
+/**********************
+Como foi feito a area de rolagem dos filmes: listArea, liste e item;
+**********************/
 .movieRow--listArea {
   overflow-x: hidden;
   padding-left: 30px;
@@ -15,6 +19,7 @@
   display: inline-block;
   width: 150px;
 }
+
 .movieRow--item img {
   width: 100%;
   cursor: pointer;
