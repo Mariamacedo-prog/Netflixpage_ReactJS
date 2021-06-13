@@ -1,0 +1,12 @@
+{
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "eqeqeq": "warn",
+    "strict": "off"
+  }
+}
