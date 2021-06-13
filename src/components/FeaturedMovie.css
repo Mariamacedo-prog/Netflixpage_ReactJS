@@ -1,4 +1,25 @@
 .featured {
   height: 100vh;
-  margin: 0;
+}
+.featured--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+.featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+}
+
+.featured--name {
+}
+
+.featured--info {
+}
+.featured--points {
+}
+.featured--year {
+}
+.featured--seasons {
 }
