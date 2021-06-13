@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import MovieRoll from "./components/MovieRoll";
+import FeaturedMovie from "./components/FeaturedMovie";
+import Tmdb from "./Tmdb";
+
+import "./App.css";
 
 function App() {
+  const [movieList, setMovieList] = useState([]);
+  const [featuredData, setFeaturedData] = useState(null);
+
+  useEffect(() => {
+    const loadAll = async () => {
+      // Pegando a lista TOTAL DA API.
+      let list = await Tmdb.getHomeList();
+      setMovieList(list);
+
+      // Pegando o featured;
+      let originals = list.filter((i) => i.slug === "originals");
+      // Gerando uma imagem aleatória;
+      let randomShosen = Math.floor(
+        Math.random() * (originals[0].items.results.length - 1)
+      );
+      let chosen = originals[0].items.results[randomShosen];
+      let chosenInfo = await Tmdb.getMovieInfo(chosen.id, "tv");
+
+      setFeaturedData(chosenInfo);
+    };
+
+    loadAll();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page">
+      {featuredData && <FeaturedMovie item={featuredData} />}
+
+      <section className="lists">
+        {movieList.map((item, key) => (
+          <MovieRoll key={key} title={item.title} items={item.items} />
+        ))}
+      </section>
     </div>
   );
 }
