@@ -9,7 +9,6 @@
 # - RESPONSIVIDADE horizontal.
 ![image](https://user-images.githubusercontent.com/69858181/121831751-a0d2ca00-cc9e-11eb-94f2-364d34bd3723.png)
 ![image](https://user-images.githubusercontent.com/69858181/121831757-a8926e80-cc9e-11eb-9335-04b87c05d9ff.png)
-![image](https://user-images.githubusercontent.com/69858181/121832809-569f1800-cca1-11eb-9e14-4e7c8839ad94.png)
 
 
 # WEB
