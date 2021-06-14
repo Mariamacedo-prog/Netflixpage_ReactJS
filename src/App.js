@@ -66,6 +66,7 @@ function App() {
           💖
         </span>
       </footer>
+
       {movieList.length <= 0 && (
         <div className="loading">
           <img

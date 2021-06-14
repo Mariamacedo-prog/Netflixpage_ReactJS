@@ -57,5 +57,9 @@ Como foi feito a area de rolagem dos filmes: listArea, liste e item;
   opacity: 1;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1023px) {
+  .movieRow--right,
+  .movieRow--left {
+    opacity: 1;
+  }
 }

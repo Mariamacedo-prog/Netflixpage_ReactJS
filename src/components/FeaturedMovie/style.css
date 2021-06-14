@@ -77,3 +77,79 @@
   font-size: 18px;
   color: #999;
 }
+
+@media (max-width: 760px) {
+  .featured {
+    height: 90vh;
+  }
+  .featured--name {
+    font-size: 40px;
+  }
+  .featured--info {
+    font-size: 16px;
+  }
+  .featured--description {
+    font-size: 14px;
+    max-width: 100%;
+    margin-right: 30px;
+  }
+  .featured--myListbutton,
+  .featured--watchbutton {
+    font-size: 16px;
+  }
+  .featured--genres {
+    font-size: 14px;
+  }
+  @media (orientation: landscape) {
+    .featured {
+      height: 100vh;
+    }
+    .featured--myListbutton,
+    .featured--watchbutton {
+      font-size: 12px;
+    }
+    .featured--name {
+      font-size: 35px;
+      margin-top: 70px;
+      margin-bottom: -10px;
+    }
+    .featured--info {
+      font-size: 14px;
+      margin-bottom: -10px;
+    }
+    .featured--description {
+      font-size: 12px;
+      max-width: 80%;
+      margin-right: 30px;
+    }
+    .featured--genres {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  @media (orientation: landscape) {
+    .featured {
+      height: 100vh;
+    }
+    .featured--myListbutton,
+    .featured--watchbutton {
+      font-size: 14px;
+    }
+    .featured--name {
+      font-size: 40px;
+    }
+    .featured--info {
+      font-size: 16px;
+    }
+    .featured--description {
+      font-size: 14px;
+      max-width: 80%;
+      margin-right: 30px;
+    }
+    .featured--genres {
+      font-size: 14px;
+    }
+  }
+}
