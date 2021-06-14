@@ -17,7 +17,9 @@
 ![image](https://user-images.githubusercontent.com/69858181/121831143-235a8a00-cc9d-11eb-96d3-a6fb055ca954.png)
 
  Listagem dos estilos de filmes/série:
-![image](https://user-images.githubusercontent.com/69858181/121831170-2fdee280-cc9d-11eb-8332-05e7180f9ba6.png)
+![image](https://user-images.githubusercontent.com/69858181/121832502-9285ad80-cca0-11eb-84c8-8c1e91ca1f3e.png)
+![image](https://user-images.githubusercontent.com/69858181/121832521-9fa29c80-cca0-11eb-9677-07feac417d25.png)
+
 
 #  TELA DE LOADING
 ![image](https://user-images.githubusercontent.com/69858181/121826576-c22bba00-cc8e-11eb-860e-2c2ff4ecfe3a.png)
