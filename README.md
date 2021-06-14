@@ -9,7 +9,6 @@
 # - RESPONSIVIDADE horizontal.
 ![image](https://user-images.githubusercontent.com/69858181/121831751-a0d2ca00-cc9e-11eb-94f2-364d34bd3723.png)
 ![image](https://user-images.githubusercontent.com/69858181/121831757-a8926e80-cc9e-11eb-9335-04b87c05d9ff.png)
-![image](https://user-images.githubusercontent.com/69858181/121831766-b1834000-cc9e-11eb-8ff5-68b9b9161fd5.png)
 
 # WEB
  Com a mudança do featured, feita de forma aleatoria
@@ -23,8 +22,5 @@
 
 #  TELA DE LOADING
 ![image](https://user-images.githubusercontent.com/69858181/121826576-c22bba00-cc8e-11eb-860e-2c2ff4ecfe3a.png)
-
-# CRÉDITOS
-![image](https://user-images.githubusercontent.com/69858181/121831247-60268100-cc9d-11eb-9945-d239a98add79.png)
   
 
