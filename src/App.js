@@ -66,6 +66,24 @@ function App() {
           💖
         </span>
       </footer>
+      {movieList.length <= 0 && (
+        <div className="loading">
+          <img
+            src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"
+            alt="carregando"
+            style={{ width: 700 }}
+          />
+        </div>
+      )}
+      {featuredData == null && (
+        <div className="loading">
+          <img
+            src="https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif"
+            alt="carregando"
+            style={{ width: 700 }}
+          />
+        </div>
+      )}
     </div>
   );
 }
