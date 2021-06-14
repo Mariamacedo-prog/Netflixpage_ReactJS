@@ -1,4 +1,4 @@
-# Projeto de responsividade: Página principal do Netflix.
+# Página principal do Netflix.
   Para desenvolver este layout foi usado a API do site: https://www.themoviedb.org/
 
 # - RESPONSIVIDADE vertical
